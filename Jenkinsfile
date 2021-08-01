@@ -2,7 +2,7 @@ node{
 
     stage('SCM Checkout')
     {
-        git url: 'https://github.com/Rohith-why/online-shop.git'
+        git credentialsId:'Rohith-why', url: 'https://github.com/Rohith-why/online-shop.git'
     }
     
     stage('Run Docker Compose File')
