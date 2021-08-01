@@ -24,4 +24,4 @@ services:
             MYSQL_USER: edu
             MYSQL_PASSWORD: admin
           ports:
-           - 6033:3305
+           - 6034:3305
